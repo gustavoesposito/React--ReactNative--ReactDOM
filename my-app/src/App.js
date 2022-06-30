@@ -1,4 +1,5 @@
- import './App.css';
+ import './App.css';]
+ import { useState } from 'react';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
  import Pessoa from './components/Pessoa';
@@ -10,14 +11,12 @@ import Condicional from './components/Condicional';
 import Lista02 from './components/Lista2';
 
 function App( ) {
+  const[nome,setNome]= useState()
 
-  const meusItens=['React', 'Angular', 'Vue']
-  
-  return (
+   return (
        <div className='App'>
-        <h1>Renderização de Listas</h1>
-        <Lista02 itens={[ ]}/>
-        </div>
+        <h1>State Lift</h1>
+         </div>
   );
 }
 
