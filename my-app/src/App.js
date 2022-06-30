@@ -9,8 +9,7 @@ import Form from './components/Form';
 import Condicional from './components/Condicional';
 
 function App( ) {
-  const name= 'João'
-    return (
+     return (
        <div className='App'>
         <h1>Henderização Condicional</h1>
         <Condicional/>
