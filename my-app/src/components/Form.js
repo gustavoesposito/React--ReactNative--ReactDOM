@@ -6,12 +6,15 @@ function Form(){
     function cadastrarUser(e){
         e.preventDefault()
         console.log(`Usuário ${name}, com a senhga ${password}`)
+        alert('Cadastrado')
        
+        
+     
+    
     }
-
     const [name,setName]= useState()
     const [password,setPassword]= useState()
-    
+
 
 
     return(
@@ -28,7 +31,7 @@ function Form(){
                     />
                 </div>
                 <div>
-                    <label htmlFor="password">Senha:</label>
+                    <label htmlFor="password">Senha:</label >
                     <input 
                     type ="password" 
                     id="password"
