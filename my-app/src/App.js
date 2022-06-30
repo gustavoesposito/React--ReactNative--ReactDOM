@@ -16,7 +16,7 @@ function App( ) {
   return (
        <div className='App'>
         <h1>Renderização de Listas</h1>
-        <Lista02 itens={meusItens}/>
+        <Lista02 itens={[ ]}/>
         </div>
   );
 }
