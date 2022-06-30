@@ -7,12 +7,16 @@ import List from './components/List';
 import Eventos from './components/Eventos'
 import Form from './components/Form';
 import Condicional from './components/Condicional';
+import Lista02 from './components/Lista2';
 
 function App( ) {
-     return (
+
+  const meusItens=['React', 'Angular', 'Vue']
+  
+  return (
        <div className='App'>
-        <h1>Henderização Condicional</h1>
-        <Condicional/>
+        <h1>Renderização de Listas</h1>
+        <Lista02 itens={meusItens}/>
         </div>
   );
 }
