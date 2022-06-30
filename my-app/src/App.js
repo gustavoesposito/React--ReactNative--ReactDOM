@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+ import './App.css';
+import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+ import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
+import List from './components/List';
+import Eventos from './components/Eventos'
+import Form from './components/Form';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+function App( ) {
+  const name= 'João'
+    return (
+       <div className='App'>
+        <h1>Testando eventos</h1>
+        <Eventos numero="1"/>
+        <Eventos numero="2"/>
+       <Form/>
+        </div>
   );
 }
 
