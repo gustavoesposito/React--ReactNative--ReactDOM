@@ -6,17 +6,14 @@ import Frase from './components/Frase';
 import List from './components/List';
 import Eventos from './components/Eventos'
 import Form from './components/Form';
-
+import Condicional from './components/Condicional';
 
 function App( ) {
   const name= 'João'
     return (
        <div className='App'>
-        <h1>Testando eventos</h1>
-        <Eventos numero="1"/>
-      
-      
-       <Form/>
+        <h1>Henderização Condicional</h1>
+        <Condicional/>
         </div>
   );
 }
