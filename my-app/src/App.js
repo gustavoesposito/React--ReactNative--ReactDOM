@@ -4,6 +4,7 @@
 import Home from './pages/Home';
 import Contato from './pages/Contato';
 import Empresa from './pages/Empresa';
+import NewProject from './pages/NewProject';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
@@ -18,6 +19,7 @@ function App() {
             <Route path='/' exact='true' element={<Home/>}></Route>
             <Route path='/empresa' element={<Empresa/>}></Route>
             <Route path='/contato' element={<Contato/>}></Route>
+            <Route path='/newproject' element={<NewProject/>}></Route>
           </Routes>
           <Footer/>
         </Router>
